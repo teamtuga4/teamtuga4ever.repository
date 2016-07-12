@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.casmart"
        name="[COLOR blue][I][B]CASMART[/B][/I][/COLOR]"
        version="1.0"
@@ -16,7 +15,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
 
@@ -30,18 +29,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="teamtuga4ever.repository" name="teamuga4ever" version="1.0" provider-name="teamtuga4">
-	<extension point="xbmc.addon.repository" name="teamuga4ever repository">
-		<info compressed="false">http://raw.github.com/Team-Tuga.4ever/teamtuga4ever.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/Team-Tuga.4ever/teamtuga4ever.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/Team-Tuga.4ever/teamtuga4ever.repository/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Equipe TeamTuga4ever</summary>
-		<description>teamtuga4ever Repository</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-</addons>
