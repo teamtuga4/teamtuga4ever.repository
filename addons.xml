@@ -56,6 +56,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.mntek" name="MNTEK" version="1.0" provider-name="mntek">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">MNTEK</summary>
+    <description lang="en">Canal mais baseado em tecnologia com dicas, reviews e unboxings. Tudo falado em PT a pensar em ti.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="teamtuga4ever.repository" name="teamuga4ever" version="1.0" provider-name="teamtuga4">
 	<extension point="xbmc.addon.repository" name="teamuga4ever repository">
 		<info compressed="false">http://raw.github.com/Team-Tuga.4ever/teamtuga4ever.repository/master/addons.xml</info>
