@@ -60,10 +60,10 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "loganaddon TV ", "url": "http://vitor1983.netai.net/logan/logan%20Menu%20Principal.xml", "fanart": "http://i35.servimg.com/u/f35/19/44/91/43/13570210.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "loganaddon TV", "thumbnail": "http://i86.servimg.com/u/f86/19/44/91/43/icon11.png"}]
+SOURCES = [{"title": "loganaddon TV ", "url": "http://vitor1983.netai.net/logan/logan%20Menu%20Principal.xml", "fanart": "http://i35.servimg.com/u/f35/19/44/91/43/13570210.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "loganaddon TV", "thumbnail": "http://i35.servimg.com/u/f35/19/44/91/43/icon10.jpg"}]
 
-# http://all4desktop.com/data_images/1920%20x%201080/4162861-bane-dark-knight-rises.jpg
-# http://i86.servimg.com/u/f86/19/44/91/43/icon11.png
+# http://i35.servimg.com/u/f35/19/44/91/43/13570210.jpg
+# http://i35.servimg.com/u/f35/19/44/91/43/icon10.jpg
 
 """
 if os.path.exists(source_file)==True:
@@ -855,7 +855,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             urllib2.install_opener(opener)
                             
                         
-                        req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
+                        req.add_header('User-Agent', 'MoziIIa/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
                         proxytouse=None
 
                         if 'refer' in m:
