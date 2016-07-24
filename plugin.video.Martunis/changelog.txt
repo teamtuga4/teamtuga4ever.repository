@@ -1,4 +1,4 @@
-Version 1.1.1
+Version 1.0.0
 Shame on me, fork live.streamspro
 
 Version 2.0.0
